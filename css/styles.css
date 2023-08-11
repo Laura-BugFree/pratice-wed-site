@@ -1,0 +1,80 @@
+body {
+    background-color: #F5EBEB;
+    color: #433838;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+/* ============
+    Typography 
+   ============*/
+h1,
+h2 {
+    margin: 0;
+}
+
+h1,
+h2,
+.inv-date {
+    font-family: 'Ephesis', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+a {
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+
+/* ============
+    Layout 
+   ============*/
+
+header {
+    background-color: #D5B4B4;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container-invite-img {
+    border: 8px solid #C4DFDF;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*
+    colours
+   ---------
+    #433838
+    #C4DFDF
+    #D5B4B4
+    #F5EBEB
+
+    fonts
+   -------
+font-family: 'Alegreya Sans', sans-serif;????
+font-family: 'Ephesis', cursive;
+font-family: 'Josefin Sans', sans-serif;???
+font-family: 'Open Sans', sans-serif;
+
+
+  
+*/
