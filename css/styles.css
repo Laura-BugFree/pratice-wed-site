@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F5EBEB;
     color: #433838;
@@ -39,7 +43,9 @@ h2 {
     margin-bottom: .5em;
 }
 
-
+.attr {
+    font-size: 1rem;
+}
 
 /* ============
     Layout 
