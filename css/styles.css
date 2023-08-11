@@ -24,24 +24,31 @@ h2,
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 4.5rem;
+    font-size: 4rem;
+}
+
+.inv-date {
+    font-size: 2.75rem;
 }
 
 a {
+    color: #433838;
     font-size: 1.75rem;
     text-decoration: none;
 }
+
 
 
 /* ============
     Layout 
    ============*/
 
-header {
+header,
+.bg-color {
     background-color: #D5B4B4;
 }
 
@@ -50,15 +57,44 @@ img {
     display: block;
 }
 
+
 .container-invite-img {
-    border: 8px solid #C4DFDF;
+    border: 10px solid #C4DFDF;
+    margin-bottom: 2em;
 }
 
 .container {
     width: 90%;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
+    padding: 1.25em;
 }
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.25em;
+}
+
+.container-invite {
+    order: 2;
+}
+
+.container-invite-img {
+    order: 1;
+
+}
+
+.btn {
+    background-color: #C4DFDF;
+    padding: 0.5em 2em;
+    display: inline;
+}
+
+
+
+
+
 
 /*
     colours
